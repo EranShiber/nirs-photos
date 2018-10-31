@@ -1,0 +1,63 @@
+body {
+	background-image: url(background1.jpg);
+	background-size: cover; height: 150px;
+  background-repeat: no-repeat;
+
+  	
+}
+h1 {
+  text-shadow: -27px -4px 12px rgba(0, 0, 0, 0.41);
+	font-family: 'Acme', sans-serif;
+	text-align: center;
+	color: black;
+	font-size: 600%;
+  border-width:5px;  
+  border-style:dotted solid;
+}
+header {
+text-shadow: -27px -4px 12px rgba(0, 0, 0, 0.41);
+font-family: 'Acme', sans-serif;
+text-align: center;
+font-size: 500%;
+color: white;
+text-align: center;
+}
+
+img {
+content: '';
+    position: absolute;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3); 
+    width: 70%; 
+    left: 15%; /* one half of the remaining 30% */
+    height: 100px;
+    bottom: 0;
+
+  cursor: pointer;
+	margin: 40px;
+    height: 300px;
+    width: 300px;
+    border-radius: 15px 50px 30px;
+
+   	text-align: center;
+   	position: relative;
+    top: 3px;
+    transition: 0.6s;
+}
+
+ img:hover {
+transform: scale(1.1);
+}
+.aboutnir {
+   	text-align: center;
+   	position: relative;
+    transition: 0.10s;
+    
+}
+
+p , .aboutnir {
+  border-width:5px;  
+  border-style: solid;
+  color: grey;
+  font-size: 100%;
+
+}
